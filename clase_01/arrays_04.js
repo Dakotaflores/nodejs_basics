@@ -9,8 +9,12 @@ const size_meses = meses.length  // Tamaño del array de meses
 const size_fechas = fechas.length  // Tamaño del array de fechas
 const size_dias = dias.length  // Tamaño del array de dias
 
-for (let i = 0; i < size_meses; i= i +1 ) {
-  console.log(meses[i])
+//for (let i = 4; i < size_meses; i= i + 7 ) {
+ // console.log(meses[i])
+//}
+
+  for (let i = 0; i < dias.length; i= i + 6 ) {  
+     console.log(dias[i])
 }
 
 
